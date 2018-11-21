@@ -1,0 +1,97 @@
+/*Global*/
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/*header*/
+header {
+    overflow: hidden;
+}
+
+header .left-nav{
+    float: left;
+}
+.left-nav ul {
+    overflow: hidden;
+}
+.left-nav li {
+    float: left;
+}
+.left-nav li a{
+    display: block;
+    padding-left: 15px;
+    color: #000;
+}
+
+header .right-nav{
+    float: right;
+}
+.right-nav ul {
+    overflow: hidden;
+}
+.right-nav li {
+    float: left;
+}
+.right-nav li a{
+    display: block;
+}
+.right-nav li a{
+    display: block;
+    padding-left: 15px;
+    color: #000;
+}
+/*search form*/
+#main {
+    text-align: center;
+}
+.center {
+    margin: auto;
+    display: block;
+}
+.search-button{
+    display: block;
+    padding-top: 18px;
+}
+.search-button input {
+    padding: 0 16px;
+    font-size: 13px;
+}
+
+#main .box-center {
+    width:45%;
+    height: 30px;
+}
+
+/*Footer*/
+footer {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+footer a {
+    color: #000;
+}
+footer  li {
+    float: left;
+}
+footer .left-fbar {
+    float:left;
+}
+footer .left-fbar a{
+    display: block;
+    padding-left: 15px;
+    color: #000;
+}
+footer .right-fbar {
+    float:right;
+}
+footer .right-fbar a{
+    display: block;
+    padding-left: 15px;
+    color: #000;
+}
